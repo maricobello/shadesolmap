@@ -12,9 +12,9 @@ st.sidebar.markdown("<h1 style='text-align: center;'>SHADESOLMAP</h1>", unsafe_a
 st.sidebar.image("https://i.imgur.com/FcnKBrU.jpg", use_column_width=True)
 
 # Adição da barra lateral com descrição e link para o LinkedIn
-st.sidebar.markdown("Visualize uma imagem do fluxo médio anual de luz solar em seu local, seguida por 12 imagens detalhadas, representando o fluxo solar mês a mês. Tudo isso com base em dados precisos da API Google Solar.", unsafe_allow_html=True)
+st.sidebar.markdown("Visualize uma imagem do fluxo médio anual e do fluxo solar mês a mês. SHADESOLMAP utiliza base de dados API Google Solar.", unsafe_allow_html=True)
 st.sidebar.markdown("<h2 style='text-align: center;'>Desenvolvido por Matheus Ricobello</h2>", unsafe_allow_html=True)
-st.sidebar.write("--------[LinkedIn](https://www.linkedin.com/in/matheus-ricobello/)", unsafe_allow_html=True)
+st.sidebar.write("----------------->[LinkedIn](https://www.linkedin.com/in/matheus-ricobello/)", unsafe_allow_html=True)
 
 GOOGLE_SOLAR_KEY = "AIzaSyAuDJhWd_YIrSPXA8lg-Oe75behxSzeDM4"
 SOLAR_INSIGHTS_ENDPOINT = 'https://solar.googleapis.com/v1/buildingInsights:findClosest?location.latitude={}&location.longitude={}&requiredQuality=LOW&key={}'
